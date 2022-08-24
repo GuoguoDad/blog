@@ -16,5 +16,5 @@ export const get = () =>
     // see "Generating items" section for required frontmatter and advanced use cases
     items: import.meta.glob('./**/*.md'),
     // (optional) inject custom xml
-    customData: `<language>en-us</language>`,
+    customData: `<language>zh-ch</language>`,
   });

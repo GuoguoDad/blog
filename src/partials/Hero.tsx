@@ -9,14 +9,15 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>LiuHui</GradientText> 👋
+          I'm <GradientText>liuhui</GradientText> 👋 , frontend engineer, love
+          fitness
         </>
       }
       description={
         <>
           👀 I'm currently focusing on web
           <br /> ⚙️ I use daily: `react`, `react-native`
-          <br /> 🔭 I'm currently learning Android
+          <br /> 🔭 I'm currently learning android
           <br /> I ❤️ to think, learn, code, and fitness
         </>
       }
@@ -30,12 +31,24 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          {/* <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
+          <a target="_blank" href="https://blog.csdn.net/DuoguoDad">
+            <img
+              className="h-12 w-12 hover:translate-y-1"
+              style={{ width: '5rem', height: '5rem' }}
+              src="/assets/images/csdn.jpeg"
+              alt="csdn icon"
+              loading="lazy"
             />
-          </a> */}
+          </a>
+          <a target="_blank" href="https://juejin.cn/user/1636507895210350">
+            <img
+              className="h-12 w-12 hover:translate-y-1"
+              style={{ width: '5rem', height: '5rem', marginLeft: '2rem' }}
+              src="/assets/images/juejin.jpeg"
+              alt="juejin icon"
+              loading="lazy"
+            />
+          </a>
         </>
       }
     />
