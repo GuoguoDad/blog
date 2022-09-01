@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: React Native 如何实现吸顶效果
 description: React Native 如何实现吸顶效果
-pubDate: 2020-09-26T14:00:00Z
+pubDate: 2020-08-26T14:00:00Z
 imgSrc: '/assets/images/image-post3.jpeg'
 imgAlt: 'Image post 3'
 ---
