@@ -49,6 +49,15 @@ const Hero = () => (
               loading="lazy"
             />
           </a>
+          <a target="_blank" href="https://codepen.io/GuoguoDad/pens/public">
+            <img
+              className="h-12 w-12 hover:translate-y-1"
+              style={{ width: '5rem', height: '5rem', marginLeft: '2rem' }}
+              src="/assets/images/codepen.jpeg"
+              alt="codepen icon"
+              loading="lazy"
+            />
+          </a>
         </>
       }
     />
