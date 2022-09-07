@@ -6,15 +6,17 @@ pubDate: 2020-09-05T15:00:00Z
 imgSrc: 'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9838e8a12e74c52b9a23af2965586ec~tplv-k3u1fbpfcp-zoom-1.image'
 imgAlt: 'Image post 3'
 ---
----
-theme: channing-cyan
----
 
 ## 前言
-还有二十多天就国庆了，给大家分享一个CSS纯前端绘制国旗的过程 🇨🇳
+还有二十多天就国庆了，给大家分享一个CSS纯前端绘制国旗的过程
+
+## 实现原理
+- 首先要会画三角形，三角形是基础
+- 利用3个三角形拼成五角星
+- 一大四小5个五角星和一个矩形拼成五星红旗 🇨🇳
 
 ## 1、绘制五角星
-### 1、绘制一个三角形
+### 1.1、绘制一个三角形
 
 ```javascript
  <div class="big-start"></div>
@@ -34,7 +36,7 @@ theme: channing-cyan
 ```
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/633d0df9ac7848929d15410adbeb3386~tplv-k3u1fbpfcp-zoom-1.image"  width="500"/>
 
-### 2、再利用伪元素绘制2个三角形
+### 1.2、再利用伪元素绘制2个三角形
 
 ```javascript
  <div class="big-start"></div>
@@ -74,7 +76,7 @@ theme: channing-cyan
 ```
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/81aa01c9e1a44dd1aea5cbd44b99eb4a~tplv-k3u1fbpfcp-zoom-1.image" width="500"/>
 
-### 3、调整位置和角度
+### 1.3、调整位置和角度
 
 ```javascript
  <div class="big-start"></div>
@@ -121,7 +123,7 @@ theme: channing-cyan
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c814d61769bd46568d6fba4320ee4d8e~tplv-k3u1fbpfcp-zoom-1.image"  width="500"/>
 
 ## 2、绘制国旗
-### 1、绘制国旗背景，宽高3:2
+### 2.1、绘制国旗背景，宽高3:2
 
 ```javascript
 <div class="five-start-red-flag"></div>
@@ -139,7 +141,7 @@ theme: channing-cyan
 ```
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f1250246e2f94f028e25f96b6deb432c~tplv-k3u1fbpfcp-zoom-1.image"  width="500"/>
 
-### 2、绘制大小五角星
+### 2.2、绘制大小五角星
 
 ```javascript
 <div class="five-start-red-flag">
@@ -243,7 +245,7 @@ theme: channing-cyan
 ```
 <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/95cf4cbe542c4bf6a1ac317e1b07e095~tplv-k3u1fbpfcp-watermark.image?"  width="500"/>
 
-### 3、调整大小五角星位置和角度
+### 2.3、调整大小五角星位置和角度
 
 ```javascript
 .five-start-red-flag {
@@ -355,12 +357,15 @@ theme: channing-cyan
 ```
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9838e8a12e74c52b9a23af2965586ec~tplv-k3u1fbpfcp-zoom-1.image"  width="500"/>
 
-## 在线预览
-[点我预览](https://codepen.io/GuoguoDad/pen/poVvrvM)
+## 最后
+- [点我预览](https://codepen.io/GuoguoDad/pen/poVvrvM)
+- 您的鼓励（点赞、关注、收藏）是我持续创作的动力，如果对你有帮助，支持一下，Thanks♪(･ω･)ﾉ
 
 
 
-您的鼓励（点赞、关注、收藏）是我持续创作的动力，如果对你有帮助，支持一下，Thanks♪(･ω･)ﾉ 🇨🇳
+
+
+
 
 
 
